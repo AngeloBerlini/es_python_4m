@@ -12,6 +12,6 @@ class Persona:
     def descrizione(self) -> None:
         print (f"Ho {self.eta} anni e vivo a {self.citta}")
 
-persona = Persona("Giorgio", 30, "Misano")
+persona = Persona("Mario", 30, "Roma")
 persona.saluta()
 persona.descrizione()

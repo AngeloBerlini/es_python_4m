@@ -1,7 +1,6 @@
-
 # pylint: disable=redefined-outer-name
 import pytest
-from tutti_gli_es_4M.es_python_4M.berlini_4M_001 import Persona
+from berlini_001 import Persona
 
 
 # The @pytest.fixture decorator in pytest is used to define a fixture function.
