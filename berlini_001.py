@@ -7,10 +7,10 @@ class Persona:
         self.citta = citta
     
     def saluta(self) -> None:
-        print (f"Ciao, mi chiamo {self.nome}")
+        print (f"Ciao, mi chiamo {self.nome}.")
 
     def descrizione(self) -> None:
-        print (f"Ho {self.eta} anni e vivo a {self.citta}")
+        print (f"Ho {self.eta} anni e vivo a {self.citta}.")
 
 persona = Persona("Mario", 30, "Roma")
 persona.saluta()
