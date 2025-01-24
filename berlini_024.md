@@ -18,7 +18,7 @@ classDiagram
 
     class Libreria{
     
-        -Film: list[Film]
+        -film: list[Film]
         +aggiungi_film(film)
         +cerca_film(titolo)
         +visualizza_film()
